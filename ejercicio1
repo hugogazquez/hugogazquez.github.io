@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaijus</title>
+</head>
+<body>
+    <table border="1">
+        <tbody>
+          <strong>Importancia</strong>
+          <em>Enfasis</em>
+          <mark>resaltado</mark>
+          <code>para fragmentos de codigo</code>
+          <small>letra pequena o aviso</small>
+            <table>
+                <tr>
+                    <ul>Java</ul>
+                    <ul>C+</ul>
+                    <ul>Java</ul>
+                    <ul>SQL</ul>
+                </tr>
+                <tr>
+                    <ol>Primero pulsa el boton azul en la esquina inferior izquierda que pone "Commit to main" despues de poner nombre al archivo y una descripcion</ol>
+                    <ol>Tras pulsarlo, encima de Local Changes hay un boton negro que pone "Fetch Origin" el cual debes pulsar.  </ol>
+                    <ol>Ahora ve a tu repositorio y comprueba que los cambios se han guardado   </ol>
+                </tr>
+                <dl>
+                    <dt>HTML significa HyperText Markup Language</dt>
+                    <dd>CSS significa Cascading Style Sheets</dd>
+                    <dt>DOM significa Document Object Model</dt>
+                </dl>
+            </table>
+        </tbody>
+    </table>
+</body>
+</html>
