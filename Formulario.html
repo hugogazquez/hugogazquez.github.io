@@ -34,6 +34,30 @@
             <label for="numero"></label>
             <input type="number" id="edad" name="edad" min="18" max="999" placeholder="Edad">
         </p>
+    <label for="estudios">Estudios: </label>
+        <select name="estudios" id="estudios">
+            <optgroup label="Estudios Universitarios">
+                <option>Doctorado</option>
+                <option>Máster</option>
+                <option>Grado</option>
+            </optgroup>
+    <optgroup label="Ciclo Formativo">
+                <option>Grado Superior</option>
+                <option>Grado Medio</option>
+            </optgroup>
+        </select><br><br>
+        <label for="navegador">Elige tu navegador favorito: </label>
+        <input name="navegador" id="navegador" list="browsers">
+        <datalist name="browsers" id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Brave">
+            <option value="Opera">
+            <option value="Safari">
+            <option value="Microsoft Edge">
+        </datalist><br><br>
+        <label for="mensaje">Escribe tu mensaje: </label>
+        <textarea rows="10" cols="50" placeholder="Mensaje" id="mensaje" name="mensaje" ></textarea>
     </fieldset>
 <button type="button" id="Enviar">Enviar</button>
 </form>
