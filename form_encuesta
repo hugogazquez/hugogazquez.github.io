@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/encuesta.php." method="post"></form>
+    <fieldset>
+        <legend>Datos academicos</legend>
+        <label for="name">Nombre u apellido</label>
+        <input type="text" id="name" name="Usuario" required>
+        <label for="estudios">Estudios: </label>
+        <select name="estudios" id="estudios">
+        <optgroup label="Ciclo Formativo"> 
+                <option selected>DAM</option>
+                <option>DAW</option>
+                <option>ASIR</option>
+            </optgroup>
+        </select><br><br>
+    </fieldset>
+    <fieldset>
+       <legend>Preferencias Tecnicas</legend>
+       <p>
+            <label>Lenguaje principal</label>
+            <input name="Java" type="radio" value="Java"> Java
+            <input name="Python" type="radio" value="Python"> Python
+            <input name="C#" type="radio" value="60-79">C#
+            <input name="JavaScript" type="radio" value="60-79">JavaScript
+        </p>
+        <p>
+            <label>Entornos de trabajo habituales</label>
+            <input name="Linux" type="checkbox" value="Java">Linux
+            <input name="Windows" type="checkbox" value="Python">Windows
+            <input name="macOS#" type="checkbox" value="60-79">macOS
+        </p>
+        <p>
+            <label for="mensaje">Escribe tu mensaje: </label>
+            <textarea rows="4" cols="40" placeholder="Mensaje" id="mensaje" name="mensaje" ></textarea>
+        </p>
+    </fieldset>
+    <input type="reset" name="Resetear" value="Resetear">Resetear
+    <button type="submit" required>Enviar</button>
+
+</form>
