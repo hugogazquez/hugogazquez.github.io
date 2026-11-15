@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/registro.php" method="post">
+    <fieldset>
+        <label for="email">Gmail: </label>
+        <select name="email" id="email" type="email">
+        <label for="age">Edad: </label>
+        <select name="age" id="age" type="number" min="16" max="65">
+        <label for="number">Telefono: </label>
+        <select name="number" id="number" type="number" pattern="[0-9]{9}">    
+        <a href="https://www.google.com/">Visita Google</a>
+        <label>Elije una sugerencia: <input list="programs" name="myProgram"/></label>
+            <datalist id="programs">
+            <option value="IntelliJ IDEA"></option>
+            <option value="Visual Studio Code"></option>
+            <option value="Visual Studio Code"></option>
+            <option value="Visual Studio Code"></option>
+            </datalist>
+        <label for="Aceptación de la Política de Privacidad">Aceptación de la Política de Privacidad</label>
+        <input type="checkbox" name="Aceptación de la Política de Privacidad" value="Aceptación de la Política de Privacidad" required>
+    </fieldset>
+    <input type="reset" name="Resetear" value="Resetear">
+    <input type="submit" name="Enviar" value="Enviar">
+
+    </form>
