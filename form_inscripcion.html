@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/registro.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+       <p>
+        <label for="pc">Nombre de equipos: </label>
+        <select name="pc" id="pc" type="text" autofocus>
+       </p>
+       <p>
+        <label for="codigo">Código de Registro: </label>
+        <select name="codigo" id="codigo" type="text" readonly="HACK-2026-SEV">
+        </p>
+        <p>
+        <label for="hora">Hora de presentación: </label>
+        <select name="hora" id="hora" type="time">  
+        </p>
+        <p>
+        <label for="color">Color identificativo del equipo: </label>
+        <select name="color" id="color" type="color" pattern="[0]{100}" step="5">
+        </p>
+        <p>
+        <label for="fecha">Nivel estimado de Java (0 a 100): </label>
+        <select name="fecha" id="fecha" type="file">
+        </p>
+        <p>
+        <label for="pdf">Subir Expediente / CV: </label>
+        <select name="pdf" id="pdf" type="file" accept=".pdf">
+        </p>
+        <p>
+    <input type="reset" name="Resetear" value="Resetear">
+    <input type="submit" name="Enviar" value="Enviar">
+        </select>
+    </form>
+  </fieldset>
+</body>
