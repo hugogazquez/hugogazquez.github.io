@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/registro.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+     <p>
+        <label for="name">Nombre de usuario:</label>
+        <input type="text" id="name" name="name" placeholder="Nombre">
+    </p>   
+    <p>
+        <label for="email">Gmail: </label>
+        <select name="email" id="email" type="email">
+    </p>  
+    <p>
+        <label for="fecha">Fecha:  </label>
+        <select name="fecha" id="fecha" type="date">
+    </p>
+    <p>
+        <label for="tiempo">Tiempo:  </label>
+        <select name="tiempo" id="tiempo" type="time">
+    </p>
+    <p>
+        <label for="fechahora">Fecha y hora:  </label>
+        <select name="fechahora" id="fechahora" type="datetime">
+    </p>
+    <p>
+        <label for="mes">Mes:  </label>
+        <select name="mes" id="mes" type="month">
+    </p>
+    <p>
+        <label for="semana">Semana:  </label>
+        <select name="semana" id="semana" type="week">
+    </p>
+    <p>
+        <label for="numero">Numero:  </label>
+        <select name="numer" id="numero" type="number" pattern="[-10]{10}">
+    </p>
+    <p>
+        <label for="telefono">Telefono:  </label>
+        <select name="telefono" id="telefono" type="tel">
+    </p>
+    <input type="search" id="search" name="search" />
+    <p>
+        <label for="color">Color favorito:  </label>
+        <select name="color" id="color" type="color">
+    </p>
+    <input type="submit" name="Enviar" value="Enviar">
+    </form>
