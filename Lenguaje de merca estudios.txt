@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charser="UTF-8">
+	<meta name="viewport" content="width=device.width, initial-scale=1.0">
+	<title>      </title>
+</head>
+<body>
+	<form action="https://lm.ciclo.iesnervion.es" method="post">
+	<fieldset>
+		<for>
+		<p>
+			<label for"usuario"> Usuario: </label>
+			<input type="text" id="usuario" name="usuario" required>
+
+		</p>
+		<p>
+			<label for"apellido"> Apellido: </label>
+			<input type="text" id="apellido" name="apellido" required>
+
+		</p>
+		<p>
+			<label for"password"> Contraseña: </label>
+			<input type="password" id="password" name="password" required>
+
+		</p>
+		<p>
+			<label for"email"> Gmail: </label>
+			<input type="email" id="email" name="email" required>
+
+		</p>
+		<p>
+			<label for"age"> Edad: </label>
+			<input type="age" id="age" name="age" required>
+
+		</p>
+		<p>
+			<label for"number"> Telefono: </label>
+			<input type="number" id="number" name="number" mix="16" max="100" required>
+
+		</p>
+		<p>
+			<label for"recordar sesion"> Recordar sesión: </label>
+			<input type="checkbox" id="recordarsesion" name="recordarsesion" value="recordarsesion" required>
+
+		</p>
+		<p>
+			<label>S.O. habituales </label>
+			<input name="Windows 10" type="checkbox" value="win10">Windows 10
+			<input name="Windows 11" type="checkbox" value="win11">Windows 11
+			<input name="Ubuntu" type="checkbox" value="Ubuntu">Ubuntu	
+		</p>
+		<optgroup label="Ciclo Formativo">
+			<option selected>DAM</option>
+			<option selected>DAW</option>
+			<option selected>ASIR</option>		
+		</optgroup>
+		<p>
+		<label>Genero: </label>
+			<input name="radio" name="sexo" valie="Hombre">Hombre
+			<input name="radio" name="sexo" valie="Mujer">Mujer
+		</p>
+		<label for="navaegador">Navegador favorito: </label>
+		<input name="navegador" id="navegador" list="browsers">
+		<datalist name="browsers" id="browsers">
+			<option value="Chrome">
+			<option value="Brave">		
+			<option value="Firefox">		
+			<option value="Opera">		
+			<option value="Safari">		
+			<option value="Internet Explorer/Microsoft Edge">
+		</datalist>
+		<label for="mensaje">Escribe tu mensaje: </label>
+		<textarea rows="10" cols="60" placerholder="Mensaje" id="mensaje" name="mensaje"></textarea>
+		
+		
+		</for>
+		</fieldset>
+<button type="submit" name="enviar" value="Enviar">Enviar</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
